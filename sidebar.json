@@ -28,6 +28,11 @@
         "type": "doc",
         "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
         "label": "快速开始 matplotlib｜广泛使用的 Python 数据可视化模块"
+      },
+      {
+        "type": "doc",
+        "id": "Proem/Seaborn_Introduction_Tutorial.ipynb",
+        "label": "快速开始 seaborn｜了解 Pandas 的数据结构并实现常用的表格操作"
       }
     ]
   }
