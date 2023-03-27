@@ -23,6 +23,11 @@
         "type": "doc",
         "id": "Proem/TensorFlow_2_Quickstart.ipynb",
         "label": "快速开始 TensorFlow2｜面向初学者的快速入门"
+      },
+      {
+        "type": "doc",
+        "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
+        "label": "快速开始 matplotlib｜广泛使用的 Python 数据可视化模块"
       }
     ]
   }
