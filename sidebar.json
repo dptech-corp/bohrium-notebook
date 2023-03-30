@@ -6,7 +6,7 @@
         "items": [
         {
             "type": "doc",
-            "id": "Pandas/Pandas_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Pandas"
         }
         ]
@@ -19,7 +19,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "PyTorch/PyTorch_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/PyTorch_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 PyTorch"
             }
         ]
@@ -32,7 +32,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Scikit-Learn/Scikit-Learn_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/Scikit-Learn_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Scikit-Learn"
             }
         ]
@@ -45,7 +45,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "TensorFlow/TensorFlow_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 TensorFlow"
             }
         ]
@@ -58,7 +58,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Matplotlib/Matplotlib_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Matplotlib"
             }
         ]
@@ -71,7 +71,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Seaborn/Seaborn_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Seaborn"
             }
         ]
@@ -84,7 +84,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "NumPy/NumPy_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 NumPy"
             }
         ]
