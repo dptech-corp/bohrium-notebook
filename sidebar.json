@@ -6,7 +6,7 @@
         "items": [
         {
             "type": "doc",
-            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
+            "id": "Pandas/Pandas_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Pandas"
         }
         ]
@@ -14,13 +14,13 @@
 
     {
         "type": "category",
-        "id": "Pytorch",
-        "label": "Pytorch",
+        "id": "PyTorch",
+        "label": "PyTorch",
         "items": [
             {
             "type": "doc",
-            "id": "Proem/Pytorch_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Pytorch"
+            "id": "PyTorch/PyTorch_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 PyTorch"
             }
         ]
     },
@@ -32,7 +32,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/Scikit-Learn_Quick_Start_Tutorial.ipynb",
+            "id": "Scikit-Learn/Scikit-Learn_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Scikit-Learn"
             }
         ]
@@ -45,7 +45,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
+            "id": "TensorFlow/TensorFlow_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 TensorFlow"
             }
         ]
@@ -58,7 +58,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
+            "id": "Matplotlib/Matplotlib_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Matplotlib"
             }
         ]
@@ -71,7 +71,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
+            "id": "Seaborn/Seaborn_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Seaborn"
             }
         ]
@@ -84,7 +84,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
+            "id": "NumPy/NumPy_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 NumPy"
             }
         ]
