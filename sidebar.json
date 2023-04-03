@@ -7,7 +7,7 @@
             {
                 "type": "doc",
                 "id": "Proem/DeePMD-kit_Quick_Start_Tutorial.ipynb",
-                "label": "快速开始 DeePMD-kit"
+                "label": "DeePMD-kit｜快速开始 "
             }
         ]
     }, 
@@ -20,19 +20,19 @@
             {
             "type": "doc",
             "id": "Proem/PyTorch_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 PyTorch"
+            "label": "PyTorch｜快速开始"
             }, 
 
             {
             "type": "doc",
             "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 TensorFLow"
+            "label": "TensorFLow｜快速开始"
             }, 
 
             {
             "type": "doc",
             "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Scikit_Learn"
+            "label": "Scikit_Learn｜快速开始"
             } 
         ]
     }, 
@@ -45,7 +45,7 @@
             {
             "type": "doc",
             "id": "Proem/ABACUS_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 ABACUS"
+            "label": "ABACUS｜快速开始"
             }
         ]
     },
@@ -58,7 +58,7 @@
             {
             "type": "doc",
             "id": "Proem/ASE_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 ASE"
+            "label": "ASE｜快速开始"
             }
         ]
     }, 
@@ -71,25 +71,25 @@
             {
             "type": "doc",
             "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 NumPy"
+            "label": "NumPy｜快速开始"
             },
 
             {
             "type": "doc",
             "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Pandas"
+            "label": "Pandas｜快速开始"
             },
 
             {
             "type": "doc",
             "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Matplotlib"
+            "label": "Matplotlib｜快速开始"
             }, 
 
             {
             "type": "doc",
             "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Seaborn"
+            "label": "Seaborn｜快速开始"
             }
         ]
     } 
