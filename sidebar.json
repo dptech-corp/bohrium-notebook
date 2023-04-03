@@ -1,99 +1,72 @@
 [
     {
         "type": "category",
-        "id": "Pandas",
-        "label": "Pandas",
+        "id": "Multiscale_Modeling",
+        "label": "多尺度建模",
         "items": [
         {
             "type": "doc",
-            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Pandas"
+            "id": "Proem/DeePMD-kit_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 DeePMD-kit"
         }
         ]
     }, 
 
     {
         "type": "category",
-        "id": "PyTorch",
-        "label": "PyTorch",
+        "id": "Machine_Learning",
+        "label": "机器学习",
         "items": [
             {
             "type": "doc",
             "id": "Proem/PyTorch_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 PyTorch"
+            }, 
+
+            {
+            "type": "doc",
+            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 TensorFLow"
+            }, 
+
+            {
+            "type": "doc",
+            "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 Scikit_Learn"
+            }, 
+        ]
+    }, 
+
+    {
+        "type": "category",
+        "id": "First-principles_calculations",
+        "label": "第一性原理计算",
+        "items": [
+            {
+            "type": "doc",
+            "id": "Proem/ABACUS_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 ABACUS"
             }
         ]
     },
 
-    {
-        "type": "category",
-        "id": "Scikit-Learn",
-        "label": "Scikit-Learn",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Scikit-Learn"
-            }
-        ]
-    }, 
+    // {
+    //     "type": "category",
+    //     "id": "Molecular_Dynamics",
+    //     "label": "分子动力学",
+    //     "items": [
+    //         {
+    //         "type": "doc",
+    //         "id": "Proem/Lammps_Quick_Start_Tutorial.ipynb",
+    //         "label": "快速开始 Lammps"
+    //         }
+    //     ]
+    // }, 
 
     {
         "type": "category",
-        "id": "TensorFlow",
-        "label": "TensorFlow",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 TensorFlow"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "Matplotlib",
-        "label": "Matplotlib",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Matplotlib"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "Seaborn",
-        "label": "Seaborn",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Seaborn"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "NumPy",
-        "label": "NumPy",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 NumPy"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "ASE",
-        "label": "ASE",
+        "id": "Python_Micro_Simulation",
+        "label": "Python 微介模拟",
         "items": [
             {
             "type": "doc",
@@ -101,5 +74,49 @@
             "label": "快速开始 ASE"
             }
         ]
-    }
+    }, 
+
+    {
+        "type": "category",
+        "id": "Data_Analyse_Visualize",
+        "label": "数据分析与可视化",
+        "items": [
+            {
+            "type": "doc",
+            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 NumPy"
+            },
+
+            {
+            "type": "doc",
+            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 Pandas"
+            },
+
+            {
+            "type": "doc",
+            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 Matplotlib"
+            }, 
+
+            {
+            "type": "doc",
+            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
+            "label": "快速开始 Seaborn"
+            }
+        ]
+    } 
+
+    // {
+    //     "type": "category",
+    //     "id": "Work_Flow",
+    //     "label": "工作流",
+    //     "items": [
+    //         {
+    //         "type": "doc",
+    //         "id": "Proem/DFlow_Start_Tutorial.ipynb",
+    //         "label": "快速开始 DFlow"
+    //         }
+    //     ]
+    // }
   ]
