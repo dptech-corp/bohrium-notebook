@@ -4,11 +4,11 @@
         "id": "Multiscale_Modeling",
         "label": "多尺度建模",
         "items": [
-        {
-            "type": "doc",
-            "id": "Proem/DeePMD-kit_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 DeePMD-kit"
-        }
+            {
+                "type": "doc",
+                "id": "Proem/DeePMD-kit_Quick_Start_Tutorial.ipynb",
+                "label": "快速开始 DeePMD-kit"
+            }
         ]
     }, 
 
@@ -33,7 +33,7 @@
             "type": "doc",
             "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
             "label": "快速开始 Scikit_Learn"
-            }, 
+            } 
         ]
     }, 
 
