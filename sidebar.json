@@ -1,105 +1,97 @@
 [
     {
         "type": "category",
-        "id": "Pandas",
-        "label": "Pandas",
+        "id": "Multiscale_Modeling",
+        "label": "多尺度建模",
         "items": [
-        {
-            "type": "doc",
-            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Pandas"
-        }
+            {
+                "type": "doc",
+                "id": "Proem/DeePMD-kit_Quick_Start_Tutorial.ipynb",
+                "label": "DeePMD-kit｜快速开始 "
+            }
         ]
     }, 
 
     {
         "type": "category",
-        "id": "PyTorch",
-        "label": "PyTorch",
+        "id": "Machine_Learning",
+        "label": "机器学习",
         "items": [
             {
             "type": "doc",
             "id": "Proem/PyTorch_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 PyTorch"
+            "label": "PyTorch｜快速开始"
+            }, 
+
+            {
+            "type": "doc",
+            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
+            "label": "TensorFLow｜快速开始"
+            }, 
+
+            {
+            "type": "doc",
+            "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
+            "label": "Scikit_Learn｜快速开始"
+            } 
+        ]
+    }, 
+
+    {
+        "type": "category",
+        "id": "First-principles_calculations",
+        "label": "第一性原理计算",
+        "items": [
+            {
+            "type": "doc",
+            "id": "Proem/ABACUS_Quick_Start_Tutorial.ipynb",
+            "label": "ABACUS｜快速开始"
             }
         ]
     },
 
     {
         "type": "category",
-        "id": "Scikit-Learn",
-        "label": "Scikit-Learn",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Scikit-Learn"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "TensorFlow",
-        "label": "TensorFlow",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 TensorFlow"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "Matplotlib",
-        "label": "Matplotlib",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Matplotlib"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "Seaborn",
-        "label": "Seaborn",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 Seaborn"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "NumPy",
-        "label": "NumPy",
-        "items": [
-            {
-            "type": "doc",
-            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 NumPy"
-            }
-        ]
-    }, 
-
-    {
-        "type": "category",
-        "id": "ASE",
-        "label": "ASE",
+        "id": "Python_Micro_Simulation",
+        "label": "Python 微介模拟",
         "items": [
             {
             "type": "doc",
             "id": "Proem/ASE_Quick_Start_Tutorial.ipynb",
-            "label": "快速开始 ASE"
+            "label": "ASE｜快速开始"
             }
         ]
-    }
+    }, 
+
+    {
+        "type": "category",
+        "id": "Data_Analyse_Visualize",
+        "label": "数据分析与可视化",
+        "items": [
+            {
+            "type": "doc",
+            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
+            "label": "NumPy｜快速开始"
+            },
+
+            {
+            "type": "doc",
+            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
+            "label": "Pandas｜快速开始"
+            },
+
+            {
+            "type": "doc",
+            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
+            "label": "Matplotlib｜快速开始"
+            }, 
+
+            {
+            "type": "doc",
+            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
+            "label": "Seaborn｜快速开始"
+            }
+        ]
+    } 
+
   ]
