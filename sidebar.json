@@ -50,19 +50,6 @@
         ]
     },
 
-    // {
-    //     "type": "category",
-    //     "id": "Molecular_Dynamics",
-    //     "label": "分子动力学",
-    //     "items": [
-    //         {
-    //         "type": "doc",
-    //         "id": "Proem/Lammps_Quick_Start_Tutorial.ipynb",
-    //         "label": "快速开始 Lammps"
-    //         }
-    //     ]
-    // }, 
-
     {
         "type": "category",
         "id": "Python_Micro_Simulation",
@@ -107,16 +94,4 @@
         ]
     } 
 
-    // {
-    //     "type": "category",
-    //     "id": "Work_Flow",
-    //     "label": "工作流",
-    //     "items": [
-    //         {
-    //         "type": "doc",
-    //         "id": "Proem/DFlow_Start_Tutorial.ipynb",
-    //         "label": "快速开始 DFlow"
-    //         }
-    //     ]
-    // }
   ]
