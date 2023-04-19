@@ -92,6 +92,291 @@
             "label": "Seaborn｜快速开始"
             }
         ]
-    } 
+    },
+
+    {
+        "type": "category",
+        "id": "",
+        "label": "Transformers上手",
+        "items": [
+            {
+                "type": "category",
+                "id": "quicktour",
+                "label": "快速上手",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/quicktour.ipynb",
+                        "label": "Quick Tour"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/task_summary.ipynb",
+                        "label": "Task Summary"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/tokenizer_training.ipynb",
+                        "label": "Tokenizer Training"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/multilingual.ipynb",
+                        "label": "Multiligual"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "Natural Language Processing",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/tokenizer_training.ipynb",
+                        "label": "Tokenizer Training"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/language_modeling_from_scratch.ipynb",
+                        "label": "Language Modeling from Scratch"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/text_classification.ipynb",
+                        "label": "Text Classfication"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/token_classification.ipynb",
+                        "label": "Token Classfication"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/question_answering.ipynb",
+                        "label": "Question Answering"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/multiple_choice.ipynb",
+                        "label": "Multiple Choice"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/01_how_to_train.ipynb",
+                        "label": "How to Train"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/02_how_to_generate.ipynb",
+                        "label": "How to Generate"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/53_constrained_beam_search.ipynb",
+                        "label": "Constrained Beam Search"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "Computer Vision",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/image_classification_kornia.ipynb",
+                        "label": "Image Classfication Kornia"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/zeroshot_object_detection_with_owlvit.ipynb",
+                        "label": "Zeroshot Object Detection with Owlvit"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/image_captioning_blip.ipynb",
+                        "label": "Image Captioning Blip"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/image_similarity.ipynb",
+                        "label": "Image Similarity"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/automatic_mask_generator_example.ipynb",
+                        "label": "SAM: Automatic Mask Generator Example"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "Audio",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/audio_classification.ipynb",
+                        "label": "Audio Classfication"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "Other Modalities",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/protein_language_modeling.ipynb",
+                        "label": "Protein Language Modeling"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/protein_folding.ipynb",
+                        "label": "Protein Folding"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/time-series-transformers.ipynb",
+                        "label": "Time Series Transformers"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "Diffusers",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/write_own_pipeline.ipynb",
+                        "label": "Write Own Pipeline"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/unconditional_image_generation.ipynb",
+                        "label": "Unconditional Image Generation"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/stable_diffusion_jax_how_to.ipynb",
+                        "label": "Stable Diffusion Jax How to"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/depth2img.ipynb",
+                        "label": "Depth to Img"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/img2img.ipynb",
+                        "label": "Img to Img"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/inpaint.ipynb",
+                        "label": "Inpaint"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/stable_diffusion.ipynb",
+                        "label": "Stable Diffusion"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": "category",
+        "id": "Courses",
+        "label": "AI4S系列课程",
+        "items": [
+            {
+                "type": "category",
+                "id": "Scientific_Computing_for_Chemists_with_Python",
+                "label": "使用Python快速上手化学科学计算",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_00_notebook.ipynb",
+                        "label": "Chapter 00"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_01_notebook.ipynb",
+                        "label": "Chapter 01"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_02_notebook.ipynb",
+                        "label": "Chapter 02"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_03_notebook.ipynb",
+                        "label": "Chapter 03"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_04_notebook.ipynb",
+                        "label": "Chapter 04"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_05_notebook.ipynb",
+                        "label": "Chapter 05"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_06_notebook.ipynb",
+                        "label": "Chapter 06"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_07_notebook.ipynb",
+                        "label": "Chapter 07"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_08_notebook.ipynb",
+                        "label": "Chapter 08"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_09_notebook.ipynb",
+                        "label": "Chapter 09"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_10_notebook.ipynb",
+                        "label": "Chapter 10"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_11_notebook.ipynb",
+                        "label": "Chapter 11"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_12_notebook.ipynb",
+                        "label": "Chapter 12"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_14_notebook.ipynb",
+                        "label": "Chapter 14"
+                    }
+                ]
+            }
+        ]
+    }
 
   ]
