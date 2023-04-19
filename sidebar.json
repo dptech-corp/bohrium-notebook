@@ -107,22 +107,22 @@
                     {
                         "type": "doc",
                         "id": "Transformers/quicktour.ipynb",
-                        "label": "Quick Tour"
+                        "label": "快速上手"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/task_summary.ipynb",
-                        "label": "Task Summary"
+                        "label": "任务总览"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/tokenizer_training.ipynb",
-                        "label": "Tokenizer Training"
+                        "label": "分词器训练"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/multilingual.ipynb",
-                        "label": "Multiligual"
+                        "label": "多语言"
                     }
                 ]
             },
@@ -135,47 +135,47 @@
                     {
                         "type": "doc",
                         "id": "Transformers/tokenizer_training.ipynb",
-                        "label": "Tokenizer Training"
+                        "label": "分词器训练"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/language_modeling_from_scratch.ipynb",
-                        "label": "Language Modeling from Scratch"
+                        "label": "从零开始的语言建模"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/text_classification.ipynb",
-                        "label": "Text Classfication"
+                        "label": "文本分类"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/token_classification.ipynb",
-                        "label": "Token Classfication"
+                        "label": "词语分类"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/question_answering.ipynb",
-                        "label": "Question Answering"
+                        "label": "问题回答"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/multiple_choice.ipynb",
-                        "label": "Multiple Choice"
+                        "label": "多种选择"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/01_how_to_train.ipynb",
-                        "label": "How to Train"
+                        "label": "如何训练"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/02_how_to_generate.ipynb",
-                        "label": "How to Generate"
+                        "label": "如何生成"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/53_constrained_beam_search.ipynb",
-                        "label": "Constrained Beam Search"
+                        "label": "限制集束搜索"
                     }
                 ]
             },
@@ -188,27 +188,27 @@
                     {
                         "type": "doc",
                         "id": "Transformers/image_classification_kornia.ipynb",
-                        "label": "Image Classfication Kornia"
+                        "label": "图片分类Kornia"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/zeroshot_object_detection_with_owlvit.ipynb",
-                        "label": "Zeroshot Object Detection with Owlvit"
+                        "label": "使用Owlvit进行零镜头目标检测"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/image_captioning_blip.ipynb",
-                        "label": "Image Captioning Blip"
+                        "label": "图片说明 Blip"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/image_similarity.ipynb",
-                        "label": "Image Similarity"
+                        "label": "图片相似"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/automatic_mask_generator_example.ipynb",
-                        "label": "SAM: Automatic Mask Generator Example"
+                        "label": "自动物体分割SAM"
                     }
                 ]
             },
@@ -221,7 +221,7 @@
                     {
                         "type": "doc",
                         "id": "Transformers/audio_classification.ipynb",
-                        "label": "Audio Classfication"
+                        "label": "语音分类"
                     }
                 ]
             },
@@ -234,17 +234,17 @@
                     {
                         "type": "doc",
                         "id": "Transformers/protein_language_modeling.ipynb",
-                        "label": "Protein Language Modeling"
+                        "label": "蛋白质语言建模"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/protein_folding.ipynb",
-                        "label": "Protein Folding"
+                        "label": "蛋白折叠"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/time-series-transformers.ipynb",
-                        "label": "Time Series Transformers"
+                        "label": "时间序列Transformers"
                     }
                 ]
             },
@@ -257,37 +257,37 @@
                     {
                         "type": "doc",
                         "id": "Transformers/write_own_pipeline.ipynb",
-                        "label": "Write Own Pipeline"
+                        "label": "写自己的Pipeline"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/unconditional_image_generation.ipynb",
-                        "label": "Unconditional Image Generation"
+                        "label": "无条件图片生成"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/stable_diffusion_jax_how_to.ipynb",
-                        "label": "Stable Diffusion Jax How to"
+                        "label": "稳定扩散Jax的使用方法"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/depth2img.ipynb",
-                        "label": "Depth to Img"
+                        "label": "深度图片"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/img2img.ipynb",
-                        "label": "Img to Img"
+                        "label": "从图片生成图片"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/inpaint.ipynb",
-                        "label": "Inpaint"
+                        "label": "图片修复"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/stable_diffusion.ipynb",
-                        "label": "Stable Diffusion"
+                        "label": "稳定扩散Stable Diffusion"
                     }
                 ]
             }
