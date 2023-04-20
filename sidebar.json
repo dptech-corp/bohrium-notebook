@@ -92,6 +92,291 @@
             "label": "Seaborn｜快速开始"
             }
         ]
-    } 
+    },
+
+    {
+        "type": "category",
+        "id": "",
+        "label": "Transformers",
+        "items": [
+            {
+                "type": "category",
+                "id": "quicktour",
+                "label": "快速上手",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/quicktour.ipynb",
+                        "label": "快速上手"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/task_summary.ipynb",
+                        "label": "任务总览"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/tokenizer_training.ipynb",
+                        "label": "分词器训练"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/multilingual.ipynb",
+                        "label": "多语言"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "自然语言处理",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/tokenizer_training.ipynb",
+                        "label": "分词器训练"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/language_modeling_from_scratch.ipynb",
+                        "label": "从零开始的语言建模"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/text_classification.ipynb",
+                        "label": "文本分类"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/token_classification.ipynb",
+                        "label": "词语分类"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/question_answering.ipynb",
+                        "label": "问题回答"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/multiple_choice.ipynb",
+                        "label": "多种选择"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/01_how_to_train.ipynb",
+                        "label": "如何训练"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/02_how_to_generate.ipynb",
+                        "label": "如何生成"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/53_constrained_beam_search.ipynb",
+                        "label": "限制集束搜索"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "计算机视觉",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/image_classification_kornia.ipynb",
+                        "label": "图片分类 Kornia"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/zeroshot_object_detection_with_owlvit.ipynb",
+                        "label": "使用 Owlvit 进行零镜头目标检测"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/image_captioning_blip.ipynb",
+                        "label": "图片说明 Blip"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/image_similarity.ipynb",
+                        "label": "图片相似"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/automatic_mask_generator_example.ipynb",
+                        "label": "自动物体分割 SAM"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "音频处理",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/audio_classification.ipynb",
+                        "label": "语音分类"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "其它模型器",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/protein_language_modeling.ipynb",
+                        "label": "蛋白质语言建模"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/protein_folding.ipynb",
+                        "label": "蛋白折叠"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/time-series-transformers.ipynb",
+                        "label": "时间序列 Transformers"
+                    }
+                ]
+            },
+
+            {
+                "type": "category",
+                "id": "",
+                "label": "Diffusers",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Transformers/write_own_pipeline.ipynb",
+                        "label": "写自己的 Pipeline"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/unconditional_image_generation.ipynb",
+                        "label": "无条件图片生成"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/stable_diffusion_jax_how_to.ipynb",
+                        "label": "稳定扩散 Jax 的使用方法"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/depth2img.ipynb",
+                        "label": "深度图片"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/img2img.ipynb",
+                        "label": "从图片生成图片"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/inpaint.ipynb",
+                        "label": "图片修复"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Transformers/stable_diffusion.ipynb",
+                        "label": "稳定扩散 Stable Diffusion"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": "category",
+        "id": "Courses",
+        "label": "AI4S 系列课程",
+        "items": [
+            {
+                "type": "category",
+                "id": "Scientific_Computing_for_Chemists_with_Python",
+                "label": "Python 化学计算",
+                "items": [
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_00_notebook.ipynb",
+                        "label": "Chapter 00"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_01_notebook.ipynb",
+                        "label": "Chapter 01"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_02_notebook.ipynb",
+                        "label": "Chapter 02"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_03_notebook.ipynb",
+                        "label": "Chapter 03"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_04_notebook.ipynb",
+                        "label": "Chapter 04"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_05_notebook.ipynb",
+                        "label": "Chapter 05"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_06_notebook.ipynb",
+                        "label": "Chapter 06"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_07_notebook.ipynb",
+                        "label": "Chapter 07"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_08_notebook.ipynb",
+                        "label": "Chapter 08"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_09_notebook.ipynb",
+                        "label": "Chapter 09"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_10_notebook.ipynb",
+                        "label": "Chapter 10"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_11_notebook.ipynb",
+                        "label": "Chapter 11"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_12_notebook.ipynb",
+                        "label": "Chapter 12"
+                    },
+                    {
+                        "type": "doc",
+                        "id": "Courses/Scientific_Computing_for_Chemists_with_Python/chap_14_notebook.ipynb",
+                        "label": "Chapter 14"
+                    }
+                ]
+            }
+        ]
+    }
 
   ]
