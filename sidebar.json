@@ -97,7 +97,7 @@
     {
         "type": "category",
         "id": "",
-        "label": "Transformers上手",
+        "label": "Transformers",
         "items": [
             {
                 "type": "category",
@@ -130,7 +130,7 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Natural Language Processing",
+                "label": "自然语言处理",
                 "items": [
                     {
                         "type": "doc",
@@ -183,7 +183,7 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Computer Vision",
+                "label": "计算机视觉",
                 "items": [
                     {
                         "type": "doc",
@@ -216,7 +216,7 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Audio",
+                "label": "音频",
                 "items": [
                     {
                         "type": "doc",
@@ -297,7 +297,7 @@
     {
         "type": "category",
         "id": "Courses",
-        "label": "AI4S系列课程",
+        "label": "AI4S 系列课程",
         "items": [
             {
                 "type": "category",
