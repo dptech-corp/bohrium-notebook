@@ -1,0 +1,33 @@
+INPUT_PARAMETERS
+
+#Parameters (1.General)
+ntype           2                 
+symmetry        0                             
+vdw_method      d3_bj
+
+#Parameters (2.SCF)
+ecutwfc         100             
+scf_thr         1.0e-7         
+scf_nmax        120    
+
+#Parameters (3.Basis)        
+basis_type      lcao   
+          
+#Parameters (4.Smearing)
+smearing_method	gauss
+smearing_sigma	0.002
+
+#Parameters (5.Mixing)
+mixing_type	pulay
+mixing_beta	0.4
+
+#Parameters (6.md)
+calculation     md
+cal_force       1
+cal_stress      1
+md_nstep        500                # md steps
+md_type         1                  # NVT
+md_dt           1                  # time step
+md_tfirst       900                # the first target temperature
+md_restart      0                  # whether restart md
+md_dumpfreq     1                  # The period to dump MD information
