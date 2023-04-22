@@ -1,0 +1,94 @@
+{
+     "type_map": ["Li","Cl"],
+     "mass_map": [6.941,35.453],
+     "init_data_prefix": "../ex3",
+     "init_data_sys": ["00.data/training_data"],
+     "sys_format": "abacus/stru",
+     "sys_configs_prefix": "../ex2",
+     "sys_configs": [["01.md/STRU"]],
+     "_comment": " that's all ",
+
+     "numb_models": 4,
+     "default_training_param": {
+         "model": {
+             "type_map": ["Li","Cl"],
+             "descriptor": {
+                 "type": "se_e2_a",
+                 "sel": [128,128],                
+                 "rcut_smth": 0.5,
+                 "rcut": 7.0,
+                 "neuron": [20,40,80],
+                 "resnet_dt": false,
+                 "axis_neuron": 12,
+                 "seed": 1
+             },
+             "fitting_net": {
+                 "neuron": [200,200,200],
+                 "resnet_dt": true,
+                 "seed": 1
+             }
+         },
+         "learning_rate": {
+             "type": "exp",
+             "start_lr": 0.001,
+             "decay_steps": 5000
+         },
+         "loss": {
+             "start_pref_e": 0.02,
+             "limit_pref_e": 1,
+             "start_pref_f": 1000,
+             "limit_pref_f": 1,
+             "start_pref_v": 0,
+             "limit_pref_v": 0
+         },
+         "training": {
+             "numb_steps": 400000,
+             "disp_file": "lcurve.out",
+             "disp_freq": 1000,
+             "numb_test": 1,
+             "save_freq": 10000,
+             "save_ckpt": "model.ckpt",
+             "disp_training": true,
+             "time_training": true,
+             "profiling": false,
+             "profiling_file": "timeline.json",
+             "_comment": "that's all"
+         }
+     },
+
+     "model_devi_dt": 0.001,
+     "model_devi_skip": 0,
+     "model_devi_f_trust_lo": 0.08,
+     "model_devi_f_trust_hi": 0.18,
+     "model_devi_merge_traj": true,
+     "model_devi_clean_traj": false,
+     "model_devi_jobs":  [
+        {"sys_idx": [0],"temps": [900,1000,1100,1200],"press": [0,10,100,1000,10000], "trj_freq": 10, "nsteps": 100000,"ensemble": "npt", "_idx": "00"},
+        {"sys_idx": [0],"temps": [900,1000,1100,1200],"press": [0,10,100,1000,10000], "trj_freq": 10, "nsteps": 100000,"ensemble": "npt", "_idx": "01"},
+        {"sys_idx": [0],"temps": [900,1000,1100,1200],"press": [0,10,100,1000,10000], "trj_freq": 10, "nsteps": 100000,"ensemble": "npt", "_idx": "02"}   
+     ],
+
+    "fp_style": "abacus",
+    "shuffle_poscar": false,
+    "fp_task_max": 200,
+    "fp_task_min": 50,
+    "fp_pp_path": "./abacus",
+    "fp_pp_files": ["Li_ONCV_PBE-1.2.upf","Cl_ONCV_PBE-1.2.upf"],   
+    "fp_orb_files": ["Li_gga_8au_100Ry_4s1p.orb","Cl_gga_8au_100Ry_2s2p1d.orb"],  
+    "k_points":[1, 1, 1, 0, 0, 0],  
+    "user_fp_params":{  
+    "ntype": 2, 
+    "symmetry": 0,
+    "vdw_method":"d3_bj",
+    "ecutwfc": 100,      
+    "scf_thr":1e-7,
+    "scf_nmax":120, 
+    "basis_type":"lcao", 
+    "smearing_method": "gauss",
+    "smearing_sigma": 0.002,
+    "mixing_type": "pulay",
+    "mixing_beta": 0.4,
+    "cal_force":1,
+    "cal_stress":1
+    }
+}

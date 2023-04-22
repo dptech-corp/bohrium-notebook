@@ -1,0 +1,47 @@
+variable        a loop 4 pad
+variable        b equal $a-1
+variable        f equal $b*100
+variable        t equal 900+$f
+
+log             log$t.lammps
+
+units           metal
+boundary        p p p
+atom_style      atomic
+
+read_data	licl$t.data
+#replicate       2 2 2 
+mass 		1 6.94
+mass		2 35.45
+group		Li  type 1
+group		Cl  type 2
+
+
+pair_style	deepmd ./licl_compress_0.pb ./licl_compress_1.pb ./licl_compress_2.pb ./licl_compress_3.pb  out_freq 100 out_file model_devi$t.out
+pair_coeff  	* *	
+
+velocity        all create $t 23456789
+
+fix             1 all nvt temp $t $t 0.5
+timestep        0.001
+
+# rdf calculation 
+compute 	 rdf all rdf 100 1 1 1 2 2 2
+fix 		 2 all ave/time 100 1 100 c_rdf[*] file licl$t.rdf mode vector
+
+# msd calculation
+compute          msd1 Li msd
+compute          msd2 Cl msd
+fix              3 all ave/time 100 1 100 c_msd1[4] c_msd2[4] file licl$t.msd
+
+thermo_style    custom step temp pe ke etotal press density lx ly lz vol
+thermo          100 
+
+dump		1 all custom 100 licl$t.dump id type x y z
+
+run             1000000
+write_data	licl.data$t
+
+clear
+next            a
+jump            in.licl
