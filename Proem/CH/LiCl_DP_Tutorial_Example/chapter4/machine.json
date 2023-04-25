@@ -1,0 +1,101 @@
+{
+  "api_version": "1.0",
+  "deepmd_version": "2.1.5",
+  "train" :[
+    {
+      "command": "export OMP_NUM_THREADS=2 && dp",
+      "machine": {
+        "batch_type": "Lebesgue",
+        "context_type": "LebesgueContext",
+        "local_root" : "./",
+        "remote_profile":{
+          "email": "1094671923@qq.com", 
+          "password": "liangws1118@dp", 
+          "program_id": 11250,
+            "keep_backup":true,
+            "input_data":{
+                "job_type": "container",
+                "log_file": "00*/train.log",
+                "grouped":true,
+                "job_name": "dpgen_train_job",
+                "disk_size": 100,
+                "scass_type":"c12_m92_1 * NVIDIA V100",
+                "checkpoint_files":["00*/checkpoint","00*/model.ckpt*"],
+                "checkpoint_time":5,
+                "platform": "ali",
+                "image_name":"registry.dp.tech/dptech/deepmd-kit:2.1.5-cuda11.6",
+                "on_demand":0
+            }
+        }
+      },
+      "resources": {
+        "local_root":"./",
+        "group_size": 1
+      }
+    }],
+  "model_devi":
+    [{
+      "command": "export LAMMPS_PLUGIN_PATH=/opt/deepmd-kit-2.1.5/lib/deepmd_lmp && lmp -i input.lammps -v restart 0",
+      "machine": {
+        "batch_type": "Lebesgue",
+        "context_type": "LebesgueContext",
+        "local_root" : "./",
+        "remote_profile":{
+          "email": "1094671923@qq.com", 
+          "password": "liangws1118@dp", 
+          "program_id": 11250,
+            "keep_backup":true,
+            "input_data":{
+              "job_type": "container",
+              "log_file": "task*/model_devi.out",
+              "grouped":true,
+              "job_name": "dpgen_model_devi_job",
+              "disk_size": 200,
+              "scass_type":"c24_m93_1 * NVIDIA T4",
+              "platform": "ali",
+              "image_name":"registry.dp.tech/dptech/deepmd-kit:2.1.5-cuda11.6",
+              "checkpoint_files": "sync_files",
+              "checkpoint_time":5,
+              "on_demand":0
+            }
+        }
+      },
+      "resources": {
+        "local_root":"./",
+        "group_size": 1
+      }
+    }],
+  "fp":
+    [{
+      "command": "OMP_NUM_THREADS=1 mpirun -np 4 abacus",
+      "machine": {
+        "batch_type": "Lebesgue",
+        "context_type": "LebesgueContext",
+        "local_root" : "./",
+        "remote_profile":{
+          "email": "1094671923@qq.com", 
+          "password": "liangws1118@dp", 
+          "program_id": 11250,
+            "keep_backup":true,
+            "input_data":{
+              "log_file": "task*/output",
+              "grouped":true,
+              "job_name": "dpgen_fp_job",
+              "checkpoint_files": "sync_files",
+              "checkpoint_time":5,
+              "scass_type":"c8_m64_cpu",
+              "platform": "ali",
+              "image_name":"registry.dp.tech/dptech/abacus:3.1.0",
+              "job_type": "container",
+              "on_demand":0
+            }
+        }
+      },
+      "resources": {
+        "group_size": 2,
+        "local_root":"./",
+        "source_list": []
+      }
+    }
+  ]
+}
