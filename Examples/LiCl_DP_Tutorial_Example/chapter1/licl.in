@@ -1,0 +1,41 @@
+# this input script is for simulating a 3d LiCl melt at 900K using LAMMPS.
+
+# initialize simulation settings
+units           metal
+boundary        p p p
+atom_style      charge
+
+# define the simulation cell
+read_data	licl.data
+group		Li  type 1
+group		Cl  type 2
+set 		type 1 charge 1
+set 		type 2 charge -1
+
+# set force field
+pair_style      born/coul/long 7
+pair_coeff	1 1 0.4225000 0.3425 1.632 0.045625 0.01875
+pair_coeff	1 2 0.2904688 0.3425 2.401 1.250000 1.50000
+pair_coeff	2 2 0.1584375 0.3425 3.170 69.37500 139.375
+kspace_style	ewald 1.0e-6 	
+
+# nvt  
+velocity        all create 900 23456789
+fix             1 all nvt temp 900 900 0.5
+timestep        0.001
+
+# rdf calculation 
+compute 	 rdf all rdf 100 1 1 1 2 2 2
+fix 		 2 all ave/time 100 1 100 c_rdf[*] file licl.rdf mode vector
+
+# msd calculation
+compute          msd1 Li msd
+compute          msd2 Cl msd
+fix              3 all ave/time 100 1 100 c_msd1[4] c_msd2[4] file licl.msd
+
+# output
+thermo_style    custom step temp pe ke etotal press lx ly lz vol
+thermo          1000
+dump		1 all custom 1000 licl.dump id type x y z 
+
+run             200000
