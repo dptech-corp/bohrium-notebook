@@ -1,7 +1,7 @@
 LAMMPS (23 Jun 2022 - Update 1)
 OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
   using 1 OpenMP thread(s) per MPI task
-Loaded 1 plugins from /home/lws/miniconda3/envs/deepmd/lib/deepmd_lmp
+Loaded 1 plugins from /opt/deepmd-kit-2.2.1/lib/deepmd_lmp
 Loaded 0 plugins from 
 # this input script is for simulating a 3d LiCl melt at 900K using LAMMPS.
 
@@ -17,7 +17,7 @@ Reading data file ...
   1 by 1 by 1 MPI processor grid
   reading atoms ...
   108 atoms
-  read_data CPU = 0.001 seconds
+  read_data CPU = 0.002 seconds
 group		Li  type 1
 54 atoms in group Li
 group		Cl  type 2
@@ -284,21 +284,21 @@ Per MPI rank memory allocation (min/avg/max) = 19.04 | 19.04 | 19.04 Mbytes
     198000   953.8282      -447.17925      13.192241     -433.98701      9963.9553      13.44227       13.44227       13.44227       2428.9461    
     199000   867.81204     -448.32292      12.002566     -436.32036      7735.4293      13.44227       13.44227       13.44227       2428.9461    
     200000   767.00712     -447.3289       10.608349     -436.72055      8036.8208      13.44227       13.44227       13.44227       2428.9461    
-Loop time of 154.22 on 1 procs for 200000 steps with 108 atoms
+Loop time of 237.916 on 1 procs for 200000 steps with 108 atoms
 
-Performance: 112.048 ns/day, 0.214 hours/ns, 1296.849 timesteps/s
-99.2% CPU use with 1 MPI tasks x 1 OpenMP threads
+Performance: 72.631 ns/day, 0.330 hours/ns, 840.632 timesteps/s
+99.9% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 24.647     | 24.647     | 24.647     |   0.0 | 15.98
-Kspace  | 125.16     | 125.16     | 125.16     |   0.0 | 81.16
-Neigh   | 1.3069     | 1.3069     | 1.3069     |   0.0 |  0.85
-Comm    | 1.2322     | 1.2322     | 1.2322     |   0.0 |  0.80
-Output  | 0.041023   | 0.041023   | 0.041023   |   0.0 |  0.03
-Modify  | 1.5584     | 1.5584     | 1.5584     |   0.0 |  1.01
-Other   |            | 0.27       |            |       |  0.18
+Pair    | 34.679     | 34.679     | 34.679     |   0.0 | 14.58
+Kspace  | 198.49     | 198.49     | 198.49     |   0.0 | 83.43
+Neigh   | 1.697      | 1.697      | 1.697      |   0.0 |  0.71
+Comm    | 1.2312     | 1.2312     | 1.2312     |   0.0 |  0.52
+Output  | 0.041776   | 0.041776   | 0.041776   |   0.0 |  0.02
+Modify  | 1.4844     | 1.4844     | 1.4844     |   0.0 |  0.62
+Other   |            | 0.2902     |            |       |  0.12
 
 Nlocal:            108 ave         108 max         108 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -311,4 +311,4 @@ Total # of neighbors = 7292
 Ave neighs/atom = 67.518519
 Neighbor list builds = 5707
 Dangerous builds = 0
-Total wall time: 0:02:34
+Total wall time: 0:03:58
