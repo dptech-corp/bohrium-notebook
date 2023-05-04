@@ -108,7 +108,7 @@
             {
                 "type": "category",
                 "id": "quicktour",
-                "label": "快速上手",
+                "label": "基础介绍",
                 "items": [
                     {
                         "type": "doc",
