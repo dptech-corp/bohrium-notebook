@@ -6,8 +6,14 @@
         "items": [
             {
                 "type": "doc",
-                "id": "Proem/DeePMD-kit_Quick_Start_Tutorial.ipynb",
+                "id": "Proem/CH/DeePMD-kit_Quick_Start_Tutorial.ipynb",
                 "label": "DeePMD-kit｜快速开始 "
+            },
+
+            {
+                "type": "doc",
+                "id": "Proem/CH/LiCl_DP_Tutorial.ipynb",
+                "label": "深度势能｜超详细指南"
             }
         ]
     }, 
@@ -19,19 +25,19 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/PyTorch_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/PyTorch_Quick_Start_Tutorial.ipynb",
             "label": "PyTorch｜快速开始"
             }, 
 
             {
             "type": "doc",
-            "id": "Proem/TensorFlow_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/TensorFlow_Quick_Start_Tutorial.ipynb",
             "label": "TensorFLow｜快速开始"
             }, 
 
             {
             "type": "doc",
-            "id": "Proem/Scikit_Learn_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/Scikit_Learn_Quick_Start_Tutorial.ipynb",
             "label": "Scikit_Learn｜快速开始"
             } 
         ]
@@ -44,7 +50,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/ABACUS_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/ABACUS_Quick_Start_Tutorial.ipynb",
             "label": "ABACUS｜快速开始"
             }
         ]
@@ -57,7 +63,7 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/ASE_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/ASE_Quick_Start_Tutorial.ipynb",
             "label": "ASE｜快速开始"
             }
         ]
@@ -70,25 +76,25 @@
         "items": [
             {
             "type": "doc",
-            "id": "Proem/NumPy_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/NumPy_Quick_Start_Tutorial.ipynb",
             "label": "NumPy｜快速开始"
             },
 
             {
             "type": "doc",
-            "id": "Proem/Pandas_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/Pandas_Quick_Start_Tutorial.ipynb",
             "label": "Pandas｜快速开始"
             },
 
             {
             "type": "doc",
-            "id": "Proem/Matplotlib_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/Matplotlib_Quick_Start_Tutorial.ipynb",
             "label": "Matplotlib｜快速开始"
             }, 
 
             {
             "type": "doc",
-            "id": "Proem/Seaborn_Quick_Start_Tutorial.ipynb",
+            "id": "Proem/CH/Seaborn_Quick_Start_Tutorial.ipynb",
             "label": "Seaborn｜快速开始"
             }
         ]
@@ -97,7 +103,7 @@
     {
         "type": "category",
         "id": "",
-        "label": "Transformers上手",
+        "label": "Transformers",
         "items": [
             {
                 "type": "category",
@@ -130,7 +136,7 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Natural Language Processing",
+                "label": "自然语言处理",
                 "items": [
                     {
                         "type": "doc",
@@ -183,17 +189,17 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Computer Vision",
+                "label": "计算机视觉",
                 "items": [
                     {
                         "type": "doc",
                         "id": "Transformers/image_classification_kornia.ipynb",
-                        "label": "图片分类Kornia"
+                        "label": "图片分类 Kornia"
                     },
                     {
                         "type": "doc",
                         "id": "Transformers/zeroshot_object_detection_with_owlvit.ipynb",
-                        "label": "使用Owlvit进行零镜头目标检测"
+                        "label": "使用 Owlvit 进行零镜头目标检测"
                     },
                     {
                         "type": "doc",
@@ -216,7 +222,7 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Audio",
+                "label": "音频处理",
                 "items": [
                     {
                         "type": "doc",
@@ -229,7 +235,7 @@
             {
                 "type": "category",
                 "id": "",
-                "label": "Other Modalities",
+                "label": "其它模型器",
                 "items": [
                     {
                         "type": "doc",
@@ -244,7 +250,7 @@
                     {
                         "type": "doc",
                         "id": "Transformers/time-series-transformers.ipynb",
-                        "label": "时间序列Transformers"
+                        "label": "时间序列 Transformers"
                     }
                 ]
             },
@@ -257,7 +263,7 @@
                     {
                         "type": "doc",
                         "id": "Transformers/write_own_pipeline.ipynb",
-                        "label": "写自己的Pipeline"
+                        "label": "写自己的 Pipeline"
                     },
                     {
                         "type": "doc",
@@ -267,7 +273,7 @@
                     {
                         "type": "doc",
                         "id": "Transformers/stable_diffusion_jax_how_to.ipynb",
-                        "label": "稳定扩散Jax的使用方法"
+                        "label": "稳定扩散 Jax 的使用方法"
                     },
                     {
                         "type": "doc",
@@ -287,7 +293,7 @@
                     {
                         "type": "doc",
                         "id": "Transformers/stable_diffusion.ipynb",
-                        "label": "稳定扩散Stable Diffusion"
+                        "label": "稳定扩散 Stable Diffusion"
                     }
                 ]
             }
@@ -297,12 +303,12 @@
     {
         "type": "category",
         "id": "Courses",
-        "label": "AI4S系列课程",
+        "label": "AI4S 系列课程",
         "items": [
             {
                 "type": "category",
                 "id": "Scientific_Computing_for_Chemists_with_Python",
-                "label": "使用Python快速上手化学科学计算",
+                "label": "Python 化学计算",
                 "items": [
                     {
                         "type": "doc",
