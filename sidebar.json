@@ -121,7 +121,7 @@
             {
                 "type": "category",
                 "id": "quicktour",
-                "label": "快速上手",
+                "label": "基础介绍",
                 "items": [
                     {
                         "type": "doc",
@@ -226,8 +226,8 @@
                     },
                     {
                         "type": "doc",
-                        "id": "Transformers/automatic_mask_generator_example.ipynb",
-                        "label": "自动物体分割 SAM"
+                        "id": "Transformers/how-to-segment-anything-with-sam.ipynb",
+                        "label": "自动物体分割SAM"
                     }
                 ]
             },
