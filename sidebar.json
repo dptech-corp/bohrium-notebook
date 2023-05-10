@@ -58,6 +58,19 @@
 
     {
         "type": "category",
+        "id": "Molecular_dynamic",
+        "label": "分子动力学",
+        "items": [
+            {
+            "type": "doc",
+            "id": "Molecular_Dynamic/MD_Integrator_from_beginner_to_developer.ipynb",
+            "label": "AI4S 时代玩转分子动力学？看看你能到第几层！"
+            }
+        ]
+    },
+
+    {
+        "type": "category",
         "id": "Python_Micro_Simulation",
         "label": "Python 微介模拟",
         "items": [
